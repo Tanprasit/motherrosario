@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace MotherRosario\Commands;
 
 abstract class Command {
 

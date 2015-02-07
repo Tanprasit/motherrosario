@@ -1,6 +1,6 @@
-<?php namespace App\Services;
+<?php namespace MotherRosario\Services;
 
-use App\User;
+use MotherRosario\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 
