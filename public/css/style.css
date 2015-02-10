@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    margin:0px;
+}
+
+/*Setting the navbar to align center*/
+@media (min-width: 768px){
+.navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+    background-color: #B5906A;
+}
+
+/*Setting the nav links to align center*/
+.navbar-nav li a {
+	color: #FFF;
+	width: 10em;
+	text-align: center;
+	border-left: 1px dotted #F4F0CB;
+}
+
+/*setup the dotted line for final nav link*/
+.home-final-link {
+	border-right: 1px dotted #F4F0CB;
+}
+
+/*Setting the background color for nav text*/
+.navbar-default .navbar-nav>li>a {
+	color:#FFF;
+}
+
+/*Setup the home banner with logo*/
+#home-top-banner {
+	background-color: #F4F0CB;
+	margin-top: 1%;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	background-color: #B5906A;
+}
